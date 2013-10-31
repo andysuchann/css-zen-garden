@@ -196,3 +196,834 @@
 
 </body>
 </html>
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.25;
+	font-weight: 300;
+	background: rgb(32,33,37) url(../images/background.png) top center;
+	color: #ffffff;
+}
+
+p, h1, h2, h3{
+	margin-bottom: 25px;
+}
+
+h1,h2,h3{
+	color: #ffffff;
+	font-weight: 700;
+	text-shadow: 0 3px 3px #000;
+}
+
+h1{ font-size: 200%; }
+h2{ font-size: 175%; }
+h3{ font-size: 150%; }
+
+a{
+	color: #df4f56;
+	text-decoration: none;
+}
+
+	.page-wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.intro{
+	}
+	
+	.intro h1{
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 673px;
+		background:  url(../images/header-picture3.png) no-repeat; 
+		background-size: cover;
+		text-indent: -5000px;
+		z-index: 1000;
+	}
+	
+	.intro h2{
+		text-align: center;
+		position: absolute;
+		width: 100%;
+		top: -10px;
+		z-index: 900;
+	}
+			.summary p:first-child{
+				padding-top: 280px;
+				padding-left: 380px;
+				font-size: 65%;
+				width: 300px;
+				margin: 0;
+			}
+			
+			.summary p:last-child{
+				margin-left: 380px;
+				margin-top: -1px;
+				font-size: 65%;
+				width: 300px;
+				
+			}
+			
+		.preamble h3{
+			text-indent: -5000px;
+		}
+		
+		.preamble h3:after{
+			content: '';
+			background: url(../images/preamble.png);
+			display: block;
+			width: 462px;
+			height: 32px;
+			z-index: 1010;
+			margin-left: 20px;
+		}
+
+		
+		.explanation h3{
+			text-indent: -5000px;
+		}
+		
+		.explanation h3:after{
+			content: '';
+			background: url(../images/explanation.png);
+			display: block;
+			width: 421px;
+			height: 36px;
+			z-index: 1010;	
+			margin-left: 585px;
+			margin-top: -371px;
+		}
+		
+		.participation h3{
+			text-indent: -5000px;
+		}
+		
+			.participation h3:after{
+			content: '';
+			background: url(../images/participation.png);
+			display: block;
+			margin-top: -290px;
+			margin-left: 20px;
+			width: 219px;
+			height: 32px;
+			z-index: 1010;	
+		}
+		
+		.benefits h3{
+			text-indent: -5000px;
+		}
+		
+			.benefits h3:after{
+			content: '';
+			background: url(../images/benefits.png);
+			display: block;
+			width: 130px;
+			height: 32px;
+			margin-top: -220px;
+			margin-left: 20px;
+			z-index: 1010;	
+		}
+		
+		.requirements h3{
+			text-indent: -5000px;
+		}
+		
+		.requirements h3:after{
+			content: '';
+			background: url(../images/requirements.png);
+			display: block;
+			width: 197px;
+			height: 32px;
+			z-index: 1010;	
+			margin-left: 780px;
+			margin-top: -220px
+		}
+		
+		aside.sidebar ul li{
+			margin-bottom: 6px;
+		}
+		
+		.design-selection{
+			margin-left: 220px;
+		}
+		
+		.design-selection h3{
+			text-indent: -5000px;
+		}
+		
+			.design-selection h3:after{
+			content: '';
+			background: url(../images/design.png);
+			display: block;
+			width: 266px;
+			height: 32px;
+			z-index: 1010;	
+			margin-left: 5px;
+			
+		}
+		
+		.design-archives{
+			position: static;
+			margin-left: 830px;
+			margin-top: -335px;
+			margin-bottom: 308px;
+		} 
+		
+		.design-archives h3{
+			text-indent: -5000px;
+		}
+		
+		.design-archives h3:after{
+			content: '';
+			background: url(../images/archives.png) no-repeat;
+			display: block;
+			width: 266px;
+			height: 32px;
+			z-index: 1010;	
+			
+		}
+		
+		.zen-resources{
+			position: static;
+			margin-left: 830px;
+			margin-top: -308px;
+			
+		} 
+		
+			.zen-resources h3{
+			text-indent: -5000px;
+		}
+		
+			.zen-resources h3:after{
+			content: '';
+			background: url(../images/resources.png) no-repeat;
+			display: block;
+			width: 162px;
+			height: 32px;
+			z-index: 1010;	
+			
+		}
+	
+		.preamble p{
+			display: block;
+			margin-left: 20px;
+			width: 462px;
+			font-size: 80%;
+		}	
+		
+		
+		.explanation p{
+			width: 462px;
+			font-size: 80%;
+			left: 585px;
+			top: -300px;
+			display: block;
+		}
+		
+		.participation p{
+			width: 462px;
+			font-size: 80%;
+			top: -220px;
+			left: 20px;
+			display: block
+		}
+		
+		.benefits p{
+			width: 462px;
+			font-size: 80%;
+			top: -150px;
+			left: 20px;
+			display: block
+		}
+		
+		
+		.requirements p{
+			display: block;
+			top: -150px;
+			left: 350px;
+			width: 630px;
+			font-size: 80%;
+			text-align: right;
+		}
+		
+		
+		.participation:after{
+		content: '';
+		background: url(../images/line2.png) no-repeat;
+		display: block;
+		width: 320px;
+		height: 280px;
+		position: absolute;
+		top: 880px;
+		left: 606px;
+		z-index: 110;
+	}
+		
+		.requirements:after{
+		content: '';
+		background: url(../images/big-line.png);
+		display: block;
+		width: 809px;
+		height: 20px;
+		position: absolute;
+		top: 2070px;
+		left: 160px;
+		z-index: 100;
+	}
+		
+	footer{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: -65px;
+		font-size: 125%;
+	}	
+	
+	
+	h3, p{
+		position: relative;
+		z-index: 1000;
+	}
+	
+@media screen and (max-width: 978px){
+	.page-wrapper{
+		width: 978px;
+	}
+	
+	.intro h1{
+		width: 463px;
+		height: 76px;
+		background: url(../images/CZG.png);
+		margin-top: 110px;
+		margin-left: 100px;
+	}
+	
+	.intro h2{
+		text-indent: -5000px;
+	}
+	
+	.summary{
+			width: auto;
+			position: static;
+			opacity: 1;
+			height: auto;
+			clear: both;
+	}
+	
+	.intro header:after{
+		content: '';
+		display: block;
+		height: 657px;
+		width: 978px;
+		background: url(../images/city.png) fixed center center no-repeat;
+		background-size: cover;
+	}
+	
+	.intro .summary p{
+		background: none;
+		text-indent: 0;
+		width: 300px;
+		height: auto;
+		text-align: left;
+		margin-top: -745px;
+		margin-left: -108px;
+		margin-bottom: 20px;
+		font-size: 60%;
+	}
+	
+		.summary p:last-child{
+				margin-left: 272px;
+				margin-top: -21px;
+				font-size: 60%;
+				width: 300px;
+				margin-bottom: -200px;
+				
+			}
+	
+	aside.sidebar ul li{
+			margin-bottom: 6px;
+		}
+		
+		.design-selection{
+			left: -20px;
+			font-size: 80%;
+			width: 300px;
+		}
+		
+		.design-selection h3{
+			text-indent: -5000px;
+		}
+		
+			.design-selection h3:after{
+			content: '';
+			background: url(../images/design2.png);
+			display: block;
+			width: 233px;
+			height: 28px;
+			z-index: 1010;	
+			margin-left: -5px;
+			
+		}
+		
+		.design-archives{
+			position: static;
+			margin-left: 600px;
+			margin-top: -312px;
+			margin-bottom: 308px;
+			font-size: 80%;
+		} 
+		
+		.design-archives h3{
+			text-indent: -5000px;
+		}
+		
+		.design-archives h3:after{
+			content: '';
+			background: url(../images/archives2.png) no-repeat;
+			display: block;
+			width: 128px;
+			height: 28px;
+			z-index: 1010;
+				
+			
+		}
+		
+		.zen-resources{
+			position: static;
+			margin-left: 600px;
+			margin-top: -308px;
+			font-size: 80%;
+			
+		} 
+		
+			.zen-resources h3{
+			text-indent: -5000px;
+		}
+		
+			.zen-resources h3:after{
+			content: '';
+			background: url(../images/resources2.png) no-repeat;
+			display: block;
+			width: 142px;
+			height: 28px;
+			z-index: 1010;	
+			
+		}
+
+	footer{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: -65px;
+		font-size: 125%;
+	}		
+	
+
+		.preamble h3{
+			text-indent: -5000px;
+		}
+		
+		.preamble h3:after{
+			content: '';
+			background: url(../images/preamble2.png);
+			display: block;
+			width: 404px;
+			height: 28px;
+			margin-left: 20px;
+			margin-top: 400px;
+			z-index: 1010;
+		}
+
+		
+		.explanation h3{
+			text-indent: -5000px;
+		}
+		
+		.explanation h3:after{
+			content: '';
+			background: url(../images/explanation2.png);
+			display: block;
+			width: 327px;
+			height: 28px;
+			z-index: 1010;	
+			margin-left: 535px;
+			margin-top: -338px;
+		}
+		
+		.participation h3{
+			text-indent: -5000px;
+		}
+		
+			.participation h3:after{
+			content: '';
+			background: url(../images/participation2.png);
+			display: block;
+			margin-top: -290px;
+			margin-left: 20px;
+			width: 192px;
+			height: 28px;
+			z-index: 1010;	
+		}
+		
+		.benefits h3{
+			text-indent: -5000px;
+		}
+		
+			.benefits h3:after{
+			content: '';
+			background: url(../images/benefits2.png);
+			display: block;
+			width: 114px;
+			height: 28px;
+			margin-top: -220px;
+			margin-left: 20px;
+			z-index: 1010;	
+		}
+		
+		.requirements h3{
+			text-indent: -5000px;
+		}
+		
+		.requirements h3:after{
+			content: '';
+			background: url(../images/requirements2.png);
+			display: block;
+			width: 172px;
+			height: 28px;
+			z-index: 1010;	
+			margin-left: 620px;
+			margin-top: -220px
+		}
+	
+			.preamble p{
+			display: block;
+			margin-left: 20px;
+			width: 400px;
+			font-size: 70%;
+		}	
+		
+		
+		.explanation p{
+			width: 400px;
+			font-size: 70%;
+			margin-left: -50px;
+			top: -285px;
+			display: block;
+		}
+		
+		.participation p{
+			width: 400px;
+			font-size: 70%;
+			top: -235px;
+			left: 20px;
+			display: block
+		}
+		
+		.benefits p{
+			width: 400px;
+			font-size: 70%;
+			top: -150px;
+			left: 20px;
+			display: block
+		}
+		
+		
+		.requirements p{
+			display: block;
+			top: -150px;
+			left: 190px;
+			width: 600px;
+			font-size: 70%;
+			text-align: right;
+		} 
+		
+		.participation:after{
+		content: '';
+		background: url(../images/line2.png) no-repeat;
+		display: block;
+		width: 320px;
+		height: 280px;
+		position: absolute;
+		top: 860px;
+		left: 546px;
+		z-index: 110;
+	}
+	
+	.requirements:after{
+		content: '';
+		background: url(../images/big-line.png);
+		display: block;
+		width: 809px;
+		height: 20px;
+		position: absolute;
+		top: 1955px;
+		left: 65px;
+		z-index: 100;
+	}
+}
+
+@media screen and (max-width: 748px){
+	.page-wrapper{
+		width: auto;
+		margin: 0 10px;
+	}
+	
+	.intro h1{
+		width: 350px;
+		height: 57px;
+		background: url(../images/CZG2.png);
+		margin-top: 100px;
+		margin-left: 15px;
+	}
+	
+	.intro h2{
+		text-indent: -5000px;
+	}
+	
+	
+	.intro header:after{
+		content: '';
+		display: block;
+		height: 657px;
+		width: 109%;
+		margin-left: -10px;
+		background: url(../images/city.png) fixed center center no-repeat;
+		background-size:cover;
+	}
+	
+	.intro .summary p{
+		background: none;
+		text-indent: 0;
+		width: 225px;
+		height: auto;
+		text-align: left;
+		margin-top: -775px;
+		margin-left: -248px;
+		margin-bottom: 20px;
+		font-size: 50%;
+	}
+	
+		.summary p:last-child{
+				margin-left: 132px;
+				margin-top: -20px;
+				font-size: 50%;
+				width: 225px;
+				margin-bottom: -200px;
+			}
+			
+		.preamble h3{
+			text-indent: -5000px;
+		}
+		
+		.preamble h3:after{
+			content: '';
+			background: url(../images/preamble3.png);
+			display: block;
+			width: 346px;
+			height: 24px;
+			margin-left: 10px;
+			z-index: 1010;
+		}
+
+		
+		.explanation h3{
+			text-indent: -5000px;
+		}
+		
+		.explanation h3:after{
+			content: '';
+			background: url(../images/explanation3.png);
+			display: block;
+			width: 292px;
+			height: 25px;
+			z-index: 1010;	
+			margin-left: 10px;
+			margin-top: -40px;
+		}
+		
+		.participation h3{
+			text-indent: -5000px;
+		}
+		
+			.participation h3:after{
+			content: '';
+			background: url(../images/participation3.png);
+			display: block;
+			margin-top: -40px;
+			margin-left: 10px;
+			width: 171px;
+			height: 25px;
+			z-index: 1010;	
+		}
+		
+		.benefits h3{
+			text-indent: -5000px;
+		}
+		
+			.benefits h3:after{
+			content: '';
+			background: url(../images/benefits3.png);
+			display: block;
+			width: 102px;
+			height: 25px;
+			margin-top: -40px;
+			margin-left: 10px;
+			z-index: 1010;	
+		}
+		
+		.requirements h3{
+			text-indent: -5000px;
+		}
+		
+		.requirements h3:after{
+			content: '';
+			background: url(../images/requirements3.png);
+			display: block;
+			width: 154px;
+			height: 25px;
+			z-index: 1010;	
+			margin-left: 10px;
+			margin-top: -40px
+		}
+	
+			.preamble p{
+			display: block;
+			margin-left: 10px;
+			width: 350px;
+			font-size: 68%;
+		}	
+		
+		
+		.explanation p{
+			width: 350px;
+			font-size: 68%;
+			left: 55px;
+			top: -2px;
+			display: block;
+		}
+		
+		.participation p{
+			width: 350px;
+			font-size: 68%;
+			top: -2px;
+			left: 10px;
+			display: block
+		} 
+		
+		.benefits p{
+			width: 350px;
+			font-size: 68%;
+			top: -2px;
+			left: 10px;
+			display: block
+		}
+		
+		
+		.requirements p{
+			display: block;
+			top: -2px;
+			left: 10px;
+			width: 350px;
+			font-size: 68%;
+			text-align: left;
+		} 
+
+		.participation:after{
+		background: none;
+		display: none;
+	}
+	
+	.requirements:after{
+		content: '';
+		background: url(../images/small-line.png);
+		display: block;
+		width: 336px;
+		height: 20px;
+		position: absolute;
+		top: 2400px;
+		left: 15px;
+		z-index: 100;
+	}
+	
+	footer{
+		text-align:center;
+		margin-bottom: 20px;
+		margin-top: 55px;
+		font-size: 100%;
+	}
+	
+		aside.sidebar ul li{
+			margin-bottom: 6px;
+		}
+		
+		.design-selection{
+			margin-left: 10px;
+			font-size: 75%;
+		}
+		
+		.design-selection h3{
+			text-indent: -5000px;
+		}
+		
+			.design-selection h3:after{
+			content: '';
+			background: url(../images/design3.png);
+			display: block;
+			width: 208px;
+			height: 25px;
+			z-index: 1010;	
+			margin-left: -4px;
+			
+		}
+		
+		.design-archives{
+			position: static;
+			margin-left: 10px;
+			margin-top: -15px;
+			margin-bottom: 308px;
+			font-size: 75%;
+		} 
+		
+		.design-archives h3{
+			text-indent: -5000px;
+		}
+		
+		.design-archives h3:after{
+			content: '';
+			background: url(../images/archives3.png) no-repeat;
+			display: block;
+			width: 144px;
+			height: 25px;
+			z-index: 1010;	
+			
+		}
+		
+		.zen-resources{
+			position: static;
+			margin-left: 10px;
+			margin-top: -308px;
+			font-size: 75%;
+			
+		} 
+		
+			.zen-resources h3{
+			text-indent: -5000px;
+		}
+		
+			.zen-resources h3:after{
+			content: '';
+			background: url(../images/resources3.png) no-repeat;
+			display: block;
+			width: 127px;
+			height: 25px;
+			z-index: 1010;	
+			
+		}
+		
+}
+
+
